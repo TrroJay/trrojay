@@ -15,7 +15,7 @@
 // }
 
 body {
-    font-family: "STSong", "华文宋体", serif;
+    font-family: "Songti SC", "STSongti-SC", "STSong", "华文宋体", serif !important;
 
     --dg-content-font-size: 16px;
 
@@ -35,5 +35,5 @@ body {
 }
 
 :not(i):not([class*="icon"]):not([class*="lucide"]) {
-    font-family: "STSong", "华文宋体", serif !important;
+    font-family: "Songti SC", "STSongti-SC", "STSong", "华文宋体", serif !important;
 }
