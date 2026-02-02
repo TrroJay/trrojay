@@ -10,4 +10,33 @@ body {
     //  h1 {
     //   color: black;
     //  }
+    --dg-content-font-size: 16px;
+
+}
+
+body {
+    font-family: "STSong", "华文宋体", serif;
+
+    --dg-content-font-size: 16px;
+}
+
+/* 3. 修改左侧文件树中当前选中文件的颜色 */
+/* 在该模板中，选中的笔记通常带有 .active 类 */
+.nav-link.active {
+    .nav-link-content {
+        /* 将颜色设置为与文件夹名称一致 */
+        /* 默认情况下文件夹使用 --text-normal 或 --text-muted */
+        color: var(--text-normal) !important; 
+        
+        /* 如果你想让它更有“选中感”，可以取消加粗或保持一致 */
+        font-weight: bold; 
+    }
+    
+    /* 修改左侧指示条的颜色（可选，建议保持色系一致） */
+    border-left-color: var(--text-accent) !important;
+}
+
+/* 确保正文部分也应用宋体 */
+.content {
+    font-family: "STSong", "华文宋体", serif;
 }
