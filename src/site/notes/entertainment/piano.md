@@ -22,10 +22,27 @@
 - [关于钢琴演奏音乐性，练耳，双音](https://gemini.google.com/share/8c3b373bf7f6)
 - 【【干货技巧篇】双音怎样弹整齐？】 https://www.bilibili.com/video/BV1B5411X7oK/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
 - 【【干货技巧篇】怎样用一只手弹出两个声音层次？】 https://www.bilibili.com/video/BV12r4y147ua/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
-# 2 Schubert
+
+# 2 Bach
+## 2.1 Intro
+- Johann Sebastian Bach, German
+## 2.2 Pickup
+### 2.2.1 Brandenburg Concertos
+- 6 Brandenburg Concertos, BWV 1046—1051, 1721
+	- 【巴赫总谱滚动勃兰登堡协奏曲 BWV 1046~1051 转自 Youtube gerubach】 https://www.bilibili.com/video/BV1ux411V7ag/?p=5&share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d21051 
+	- 【巴赫《勃兰登堡协奏曲》赏析 (中字)】 https://www.bilibili.com/video/BV1fK421e7xo/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
+- Brandenbrug Concertos 由六首协奏曲构成，每一首的乐器组合各不相同，是巴洛克时期大协奏曲的代表。该协奏曲融合了意大利 Vivaldi 的独奏 vs 乐团风格，法国的舞曲风格，德国的 Counterpoint 与 Fugue，呈现出独特的韵味。
+	- 第三号
+		- 使用弦乐组合为主奏乐器。小提琴，中提琴，大提琴；低音提琴，羽管键琴。
+		- 【小提琴和中提琴演奏同一乐曲时的区别】 https://www.bilibili.com/video/BV1R84y1F7RB/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
+		- 
+	- 第五号
+		- 使用羽管键琴作为主奏乐器，有一段华彩独奏部分。
+# 3 Schubert
+## 3.1 Intro
 - 歌唱性太好了
-## 2.1 Resources
-### 2.1.1 D.960
+## 3.2 Resources
+### 3.2.1 D.960
 - Analysis
 	- 【【舒伯特奏鸣曲 D960 上集】不怨天不尤人的舒伯特的人生回首曲 Schubert Sonata D960 B flat, 2. Movement】 https://www.bilibili.com/video/BV1tyzeYEEmv/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
 		- Teacher Andy
@@ -58,8 +75,8 @@
 		- Olympia
 		- Melodiya
 		- 5.11
-# 3 流行曲
-### 3.1.1 梦中的婚礼 Mariage d'Amour
+# 4 流行曲
+### 4.1.1 梦中的婚礼 Mariage d'Amour
 - 【【原创经典】理查德·克莱德曼为你演奏《梦中的婚礼》】 https://www.bilibili.com/video/BV15Y41117Y3/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
 	- Richard 的左手富有变化，虽然全曲都是 legato 三连音，但开头的三连音的第三个音几乎完全隐藏（Pianissimo），起到了垫音的效果（保存了高音部分织体纯粹），高潮部分三连音节奏感强，多个三连音成组俨然已经构成了一个左手乐句，烘托着氛围。
 	- Richard 的右手触键方式与众多普通演奏者不同，他使用的触键方式形成铃声般的清脆感。
@@ -69,7 +86,7 @@
 		- 【弹『梦中的婚礼』是一件羞耻的事情吗？】 https://www.bilibili.com/video/BV1qp4y1r7AT/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
 			- Bibipiano 的梦中的婚礼有一些太平静与浪漫了（平淡），没有弹出被掩埋在优美旋律下的挣扎（可能是左手一般）。
 	- https://www.youtube.com/watch?v=MnEsMqOEuSQ
-### 3.1.2 致爱丽丝 
+### 4.1.2 致爱丽丝 
 - 渊源
 	- Beethoven 献给一位女子
 	- 该作品采用回旋曲式写成，结构是ABACA。其中A部为回旋曲的主部(叠部)，共出现了3次；B部和C部为与A部起强烈对比的两个插部。
