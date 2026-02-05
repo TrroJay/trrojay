@@ -4,7 +4,15 @@
 
 # 1 Catalogue
 - Friends
-	- [[people_portraits/Leo\|Leo]] 
+	- 没想到动笔居然拖到了一个月后
+		- [[people_portraits/Leo\|Leo]]
+		- [[people_portraits/friends#Leo\|friends#Leo]] 
+		- [[people_portraits/friends#Jun\|friends#Jun]]
+		- [[people_portraits/friends#Linya\|friends#Linya]]
+		- [[people_portraits/friends#Mao\|friends#Mao]]
+		- [[people_portraits/friends#Yoda\|friends#Yoda]]
+- Self
+	- [[people_portraits/healthy_relationship\|healthy_relationship]]
 # 2 关于自救
 - 今天是 2026 年1 月6 日，我在寻找自救的方法，不是学业上的，不是情感上的，是关于一个人如何生存的。
 - 走进 2026 年，我的内心动荡不止。并没有发生什么外界剧变，只是在他人的一些只言片语和我的内心推演中，我体会到了这个世界以及身边一切的不可靠。
