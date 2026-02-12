@@ -2,18 +2,7 @@
 {"dg-publish":true,"permalink":"/people-portraits/introduction/","created":"2026-01-06","updated":"2026-02-05T13:14:00"}
 ---
 
-# 1 Catalogue
-- Friends
-	- 没想到动笔居然拖到了一个月后
-		- [[people_portraits/Leo\|Leo]]
-		- [[people_portraits/friends#Leo\|friends#Leo]] 
-		- [[people_portraits/friends#Jun\|friends#Jun]]
-		- [[people_portraits/friends#Linya\|friends#Linya]]
-		- [[people_portraits/friends#Mao\|friends#Mao]]
-		- [[people_portraits/friends#Yoda\|friends#Yoda]]
-- Self
-	- [[people_portraits/healthy_relationship\|healthy_relationship]]
-# 2 关于自救
+# 1 关于自救
 - 今天是 2026 年1 月6 日，我在寻找自救的方法，不是学业上的，不是情感上的，是关于一个人如何生存的。
 - 走进 2026 年，我的内心动荡不止。并没有发生什么外界剧变，只是在他人的一些只言片语和我的内心推演中，我体会到了这个世界以及身边一切的不可靠。
 - 在我看来，“可靠”是一个中性词，它不带感情色彩，它可以用于描述一条信息是否真实可信，可以用于形容一个人是否值得信赖，但在此处，我想将其用于形容“人与人由于认知差异而产生的隔阂”。
@@ -24,4 +13,15 @@
 - 因此，当我觉察到 Fi 所渴望的“真挚”，我曾满怀自信的“不可替代性”，我以为存在的温情被外界一次次否定，一个个耳光扇过来，好像赖以生存的基石被一点点敲碎了。
 - 于是，我试着带入其他人的视角，用我所感知到的碎片来拼合他们的完整形态，一切都变得可以解释，在测试集上的测试结果准确率惊人。
 - 因此，我选择“人物画像”，我想要从不同的切入视角来解释其他人的内心，借以关照自身所面临的生存难题，灌溉一下贫瘠的内心。
+# 2 Catalogue
+- Friends
+	- 没想到动笔居然拖到了一个月后
+		- [[people_portraits/Leo\|Leo]]
+		- [[people_portraits/friends#Leo\|friends#Leo]] 
+		- [[people_portraits/friends#Yang\|friends#Yang]]
+		- [[people_portraits/friends#Yan\|friends#Yan]]
+		- [[people_portraits/friends#M\|friends#M]]
+		- [[people_portraits/friends#Yoda\|friends#Yoda]]
+- Self
+	- [[people_portraits/healthy_relationship\|healthy_relationship]]
 
