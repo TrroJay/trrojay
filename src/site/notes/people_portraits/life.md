@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/people-portraits/life/"}
+{"dg-publish":true,"permalink":"/people-portraits/life/","created":"2026-01-19T19:05:00","updated":"2026-01-19T19:05:00"}
 ---
 
 # 1 存在主义
+- 20260119
 - Troy
 	- 加缪（Camus）极力否定自己的“存在主义者”身份，他认为自己推崇的是“荒诞哲学”。存在主义者的核心观点是“生命生来是一张白纸，我们可以随意书写它，随意定义它。”这也就导向了而加缪认为“生命生来是无意义的”。
 - Rion
