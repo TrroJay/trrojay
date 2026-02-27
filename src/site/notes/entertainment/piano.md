@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/entertainment/piano/","created":"2026-01-04T10:26:00","updated":"2026-02-12T17:21:00"}
+{"dg-publish":true,"permalink":"/entertainment/piano/","created":"2026-01-04T10:26:00","updated":"2026-02-27"}
 ---
 
 # 1 训练计划
@@ -32,6 +32,19 @@
 - [关于钢琴演奏音乐性，练耳，双音](https://gemini.google.com/share/8c3b373bf7f6)
 - 【【干货技巧篇】双音怎样弹整齐？】 https://www.bilibili.com/video/BV1B5411X7oK/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
 - 【【干货技巧篇】怎样用一只手弹出两个声音层次？】 https://www.bilibili.com/video/BV12r4y147ua/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
+## 1.4 大跳弹奏
+### 1.4.1 Resources
+- 【让大跳变得轻松点 by Josh Wright】 https://www.bilibili.com/video/BV1Lv4y1P7kM/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
+	- 心理因素 + 反应速度 + 手部机能的多重影响
+- 【朗朗手把手带你开启钢琴之路入门到进阶钢琴课（高清完整）】 https://www.bilibili.com/video/BV1DN4y1n7EW/?p=29&share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
+	- 走弧度，不犹豫。“两点之间弧线最短”
+	- 小指的力量：鱼际肌
+## 1.5 多声部作品
+### 1.5.1 Analysis
+- 训练目标
+	- 训练耳朵能够分辨不同声部进行的能力
+	- 训练按照铺面指法弹奏的能力
+	- 训练单个声部旋律不间断地在双手之间转换的能力
 
 # 2 Bach
 ## 2.1 Intro
@@ -47,11 +60,19 @@
 		- 【小提琴和中提琴演奏同一乐曲时的区别】 https://www.bilibili.com/video/BV1R84y1F7RB/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
 	- 第五号
 		- 使用羽管键琴作为主奏乐器，有一段华彩独奏部分。
+### 2.2.2 Bach Invention
+- 【【席夫】讲解巴赫二部&三部创意曲 andras schiff Bach  Invention and Sinfonia】 https://www.bilibili.com/video/BV1Kr421A7Sx/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
 # 3 Schubert
 ## 3.1 Intro
 - 歌唱性太好了
 ## 3.2 Resources
-### 3.2.1 D.960
+### 3.2.1 D.899
+- Intro
+	- Impromptu No. 1
+- Masterclass
+	- Murray Perahia
+		- https://youtu.be/De6rgUorAGg?si=5w43y_9JAiKBAfwa
+### 3.2.2 D.960
 - Analysis
 	- 【【舒伯特奏鸣曲 D960 上集】不怨天不尤人的舒伯特的人生回首曲 Schubert Sonata D960 B flat, 2. Movement】 https://www.bilibili.com/video/BV1tyzeYEEmv/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2
 		- Teacher Andy
