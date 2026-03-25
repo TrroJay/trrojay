@@ -18,10 +18,9 @@
 # 2 Catalogue
 - Friends
 	- 没想到动笔居然拖到了一个月后
-		- [[people_portraits/Leo\|Leo]]
-		- [[people_portraits/friends#Leo\|friends#Leo]] 
+		- [[people_portraits/friends#1 Leo\|friends#1 Leo]] 
 		- [[people_portraits/friends#Yang\|friends#Yang]]
-		- [[people_portraits/friends#Yan\|friends#Yan]]
+		- [[people_portraits/friends#Lin\|friends#Lin]]
 		- [[people_portraits/friends#M\|friends#M]]
 		- [[people_portraits/friends#Yoda\|friends#Yoda]]
 - Self

@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/my-record/him/","tags":["gardenEntry"],"created":"2026-02-12T16:54:00","updated":"2026-02-12T16:54:00"}
 ---
 
-- 20260212
 # 1 Who is Troy?
 - Unknown.
 # 2 What is Troy like?

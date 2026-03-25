@@ -19,7 +19,7 @@
 	- Troy 的痛苦在于他不能做到真正“为自己而活”，更多的时候他在 **“为别人而活”** 。“为别人而活”是很痛苦的，这表现为他很难专注于当下的任务，很难全身心投入思考，难以摆脱 Judging 或者无关的联想（比如练琴的时候想到“什么时候能试一试 Steinway 的钢琴”，读论文的时候想到“我的 paper 有没有机会发出来”，写日记的时候想到“我这样用词是不是足够优美”）。他目前并不知道 Fi 功能与 Ne 功能可不可以成为这种状况的挡箭牌 [[people_portraits/MBTI#4 MBTI 能不能作为挡箭牌\|MBTI#4 MBTI 能不能作为挡箭牌]]，但无论如何，他都将把上述问题作为一个需要解决的问题。
 - 20260214
 - Troy
-	- Troy 今天反思了一下为什么他可以在和朋友的交往中把自己折腾得这么痛苦、这么纠结。结果发现这是因为他太双标了。[[people_portraits/Leo#6 Troy's suffering\|Leo#6 Troy's suffering]]
+	- Troy 今天反思了一下为什么他可以在和朋友的交往中把自己折腾得这么痛苦、这么纠结。结果发现这是因为他太双标了。[[people_portraits/storage/Leo#6 Troy's suffering\|Leo#6 Troy's suffering]]
 # 3 新鲜感？
 # 4 Soulmate
 # 5 Hugging
