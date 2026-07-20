@@ -25,13 +25,24 @@
             x-on:resize.window="isDesktop = (window.innerWidth>=1000) ? true : false;"
             x-data="{isDesktop: true, showFilesMobile: false}">
 
+        <button
+            class="dg-sidebar-toggle filetree-collapse-toggle"
+            type="button"
+            x-show.important="isDesktop"
+            @click.stop="isFiletreeCollapsed = !isFiletreeCollapsed"
+            :aria-label="isFiletreeCollapsed ? 'Show file tree' : 'Hide file tree'"
+            :title="isFiletreeCollapsed ? 'Show file tree' : 'Hide file tree'">
+            <i x-show="!isFiletreeCollapsed" data-lucide="chevron-left"></i>
+            <i x-show="isFiletreeCollapsed" style="display: none;" data-lucide="chevron-right"></i>
+        </button>
+
         <div x-show.important="!isDesktop" style="display: none;">
             {%include "components/filetreeNavbar.njk"%}
         </div>
         
         <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
 
-      <div class="filetree-wrapper" x-show.important="isDesktop || showFilesMobile" style="display: none;">
+      <div class="filetree-wrapper" x-show.important="(isDesktop && !isFiletreeCollapsed) || showFilesMobile" style="display: none;">
       <nav class="filetree-sidebar">
         {% for imp in dynamics.filetree.beforeTitle %}
             {% include imp %}

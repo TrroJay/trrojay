@@ -18,7 +18,6 @@ body {
     font-family: "Songti SC", "STSongti-SC", "STSong", "华文宋体", serif !important;
 
     --dg-content-font-size: 16px;
-    --dg-notelink-size: var(--dg-content-font-size);
     --h1-size: 1.75rem;
     --h2-size: 1.45rem;
     --h3-size: 1.2rem;
@@ -85,4 +84,72 @@ body {
     font-weight: 700;
     line-height: 1.2;
     margin-block-end: 0.45em;
+}
+
+.dg-sidebar-toggle {
+    position: fixed;
+    z-index: 30;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border-radius: 6px;
+    background: var(--background-secondary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dg-sidebar-toggle .svg-icon,
+.dg-sidebar-toggle i {
+    width: 18px;
+    height: 18px;
+}
+
+.filetree-collapse-toggle {
+    top: 14px;
+    left: 12px;
+}
+
+.toc-collapse-toggle {
+    top: var(--dg-sidebar-top);
+    right: 12px;
+}
+
+@media (min-width: 1001px) {
+    body:not(.no-filetree).filetree-collapsed:not(.sidebar-collapsed) .content {
+        max-width: var(--dg-content-max-width);
+        margin-left: max(
+            20px,
+            min(
+                calc((100vw - var(--dg-content-max-width)) / 2),
+                calc(100vw - var(--dg-content-max-width) - var(--dg-sidebar-max-width) - var(--dg-sidebar-gap) - 20px)
+            )
+        );
+        margin-right: auto;
+    }
+
+    body:not(.no-filetree).sidebar-collapsed:not(.filetree-collapsed) .content {
+        max-width: var(--dg-content-max-width);
+        margin-left: max(
+            calc(var(--dg-filetree-min-width) + var(--dg-filetree-gap)),
+            calc((100vw - var(--dg-content-max-width)) / 2)
+        );
+        margin-right: auto;
+    }
+
+    body.filetree-collapsed.sidebar-collapsed .content {
+        max-width: var(--dg-content-max-width);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .filetree-collapse-toggle,
+    .toc-collapse-toggle {
+        display: none !important;
+    }
 }
