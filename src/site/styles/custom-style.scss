@@ -117,7 +117,6 @@ body {
 
 @media (min-width: 1001px) {
     body:not(.no-filetree).filetree-collapsed .content {
-        max-width: var(--dg-content-max-width);
         margin-left: max(
             20px,
             min(
