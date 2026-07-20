@@ -1,14 +1,5 @@
 <aside>
-      <button
-            class="dg-sidebar-toggle toc-collapse-toggle"
-            type="button"
-            @click.stop="isSidebarCollapsed = !isSidebarCollapsed"
-            :aria-label="isSidebarCollapsed ? 'Show outline sidebar' : 'Hide outline sidebar'"
-            :title="isSidebarCollapsed ? 'Show outline sidebar' : 'Hide outline sidebar'">
-            <i x-show="!isSidebarCollapsed" data-lucide="chevron-right"></i>
-            <i x-show="isSidebarCollapsed" style="display: none;" data-lucide="chevron-left"></i>
-      </button>
-      <div class="sidebar" x-show.important="!isSidebarCollapsed" style="display: none;">
+      <div class="sidebar">
             <div class="sidebar-container">
                   {% for imp in dynamics.sidebar.top %}
                         {% include imp %}
