@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/geek/tech/"}
+{"dg-publish":true,"permalink":"/geek/tech/","created":"2026-07-20","updated":"2026-07-20"}
 ---
 
 # 1 Server
