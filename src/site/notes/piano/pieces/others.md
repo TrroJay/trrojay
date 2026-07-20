@@ -6,7 +6,7 @@ Paul de Senneville
 # 1 Piano Piece
 ## 1.1 Mariage d'Amour
 中文名为《梦中的婚礼》。
-### 1.1.1 演奏录音
+### 1.1.1 录音
 Richard Clayderman
 	[Richard Clayderman 演奏《梦中的婚礼》](https://www.bilibili.com/video/BV15Y41117Y3/)
 Richard Clayderman
