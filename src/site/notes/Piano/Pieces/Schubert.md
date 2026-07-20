@@ -28,4 +28,3 @@ Grigory Sokolov
 Sviatoslav Richter，1972 年萨尔茨堡录音室录音
 	[Sviatoslav Richter 演奏舒伯特钢琴奏鸣曲 D.960](https://youtu.be/lncNcNtGkJY)
 	录音日期为 1972 年 8 月 6 日、9 日和 11 日。
-	相关唱片厂牌包括 Praga Digital、Olympia 和 Melodiya。
