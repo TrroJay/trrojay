@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/piano/pieces/beethoven/"}
 ---
 
-Ludwig van Beethoven
 # 1 Bagatelle
 ## 1.1 Für Elise, WoO 59
 中文名为《致爱丽丝》。

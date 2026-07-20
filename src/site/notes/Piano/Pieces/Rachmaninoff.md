@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/piano/pieces/rachmaninoff/"}
 ---
 
-Sergei Rachmaninoff
 # 1 Piano Concerto
 ## 1.1 Piano Concerto No. 2 in C minor, Op. 18
 ### 1.1.1 录音

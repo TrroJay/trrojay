@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/piano/pieces/others/"}
 ---
 
-Paul de Senneville
 # 1 Piano Piece
 ## 1.1 Mariage d'Amour
 中文名为《梦中的婚礼》。
