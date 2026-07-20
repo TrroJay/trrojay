@@ -4,10 +4,10 @@
 
 # 1 Music
 [钢琴 vs 小提琴：谁更难？](https://www.bilibili.com/video/BV1JTyVYQE7M/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
-# 2 City
+# 2 Cities
 [当你用老相机拍摄2025年的北京](https://www.bilibili.com/video/BV1RsigBkEUc/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 	推拉式运镜
-# 3 Boy
+# 3 Boys
 [大陆男生独自旅行台湾，不小心误闯通讯录公园。](https://www.bilibili.com/video/BV1ryBXB2EjN/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 [大陆男生游览台湾小琉球岛！热情的台湾小哥为我导游！](https://www.bilibili.com/video/BV1Wkq5BrEam/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 [如何识别通讯录](https://www.bilibili.com/video/BV15v25BUE9Z/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
@@ -28,7 +28,7 @@
 # 5 Idol
 ## 5.1 JJ
 [炸裂！在小女孩抗拒的情况下被主持人起哄多次嘴对嘴！主持人还说是全世界最幸运的小女孩！亏主持人还是女的](https://www.bilibili.com/video/BV14wicBqEcm/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
-## 5.2 German
+## 5.2 Germany
 Daniel Brühl
 	[特别萌的鼠💧](https://www.bilibili.com/video/BV16skRYYENJ/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 	[schule-Daniel Brühl](https://www.bilibili.com/video/BV1NvfABAE7G/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)

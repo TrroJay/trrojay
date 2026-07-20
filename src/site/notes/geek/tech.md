@@ -59,7 +59,7 @@ pkill -u "$USER" -f 'codex app-server proxy'
 clashctl sub ls
 
 # 手动修改订阅
-PROFILE_URL='<订阅地址>' \
+PROFILE_URL='http://8.148.211.250:21312/uuid/zvJoturZubvAItue?clash=1' \
 ~/clashctl/bin/yq -i \
 '(.profiles[] | select(.id == 1).url) = env(PROFILE_URL)' \
 ~/clashctl/resources/profiles.yaml
@@ -113,7 +113,6 @@ sudo apt install ./file.deb
 # 3 VPN 设置
 - 在线订阅转换网站
 	- [ACL4SSR 在线订阅转换](https://acl4ssr-sub.github.io/)
-	- 将服务商订阅连接转化为 ACL 4 SSR 格式，实现更科学的流量分组
 # 4 VS Code
 ## 4.1 Setting
 ### 4.1.1 Key Shortcut
@@ -145,3 +144,4 @@ F12
 | **`Ctrl + K` → `Enter`**    | 将当前预览标签页由临时标签页变为固定标签页。 |
 | **`Ctrl + K` → `0`**        | 折叠代码编辑器中的所有代码块。        |
 | **`Ctrl + K` → `J`**        | 展开代码编辑器中的所有代码块。        |
+# 5 网站搭建
