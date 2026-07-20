@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/language/resources/"}
+{"dg-publish":true,"permalink":"/language/resources/","dgEnableSearch":true,"dgShowToc":true}
 ---
 
 # 1 Dictionary

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/piano/pieces/schubert/"}
+{"dg-publish":true,"permalink":"/piano/pieces/schubert/","dgEnableSearch":true,"dgShowToc":true}
 ---
 
 # 1 Impromptu
