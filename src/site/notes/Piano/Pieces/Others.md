@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/piano/pieces/others/"}
+{"dg-publish":true,"permalink":"/piano/pieces/others/","dgEnableSearch":true,"dgShowToc":true}
 ---
 
 # 1 Piano Piece

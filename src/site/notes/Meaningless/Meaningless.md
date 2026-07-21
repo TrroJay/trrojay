@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meaningless/meaningless/"}
+{"dg-publish":true,"permalink":"/meaningless/meaningless/","dgEnableSearch":true,"dgShowToc":true}
 ---
 
 # 1 Music

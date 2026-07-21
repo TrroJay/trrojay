@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/piano/pieces/bach/"}
+{"dg-publish":true,"permalink":"/piano/pieces/bach/","dgEnableSearch":true,"dgShowToc":true}
 ---
 
 # 1 Concerto

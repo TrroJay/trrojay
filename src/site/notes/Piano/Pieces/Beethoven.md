@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/piano/pieces/beethoven/"}
+{"dg-publish":true,"permalink":"/piano/pieces/beethoven/","dgEnableSearch":true,"dgShowToc":true}
 ---
 
 # 1 Bagatelle

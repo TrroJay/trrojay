@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meaningless/less-meaningless/"}
+{"dg-publish":true,"permalink":"/meaningless/less-meaningless/","dgEnableSearch":true,"dgShowToc":true}
 ---
 
 # 1 Daily Life
