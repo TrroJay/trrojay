@@ -2,9 +2,11 @@
 #footnote-preview {
   position: fixed;
   display: none;
-  width: min(360px, calc(100vw - 24px));
+  width: fit-content;
+  max-width: min(360px, calc(100vw - 24px));
   max-height: 220px;
   overflow-y: auto;
+  box-sizing: border-box;
   padding: 10px 12px;
   border: 1px solid var(--background-modifier-border);
   border-radius: 6px;
@@ -13,6 +15,7 @@
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
   font-size: 0.9em;
   line-height: 1.55;
+  overflow-wrap: anywhere;
   opacity: 0;
   transition: opacity 100ms ease;
   z-index: 40;
@@ -36,6 +39,7 @@
     if (!preview) return;
 
     let hideTimer;
+    const returnPositions = {};
 
     function getFootnoteContent(link) {
       const href = link.getAttribute("href");
@@ -73,6 +77,12 @@
       preview.style.top = `${top}px`;
     }
 
+    function hidePreviewNow() {
+      clearTimeout(hideTimer);
+      preview.classList.remove("is-visible");
+      preview.innerHTML = "";
+    }
+
     function showPreview(event) {
       clearTimeout(hideTimer);
       const content = getFootnoteContent(event.currentTarget);
@@ -91,9 +101,41 @@
 
     document.querySelectorAll(".footnote-ref a").forEach((link) => {
       link.addEventListener("mouseenter", showPreview);
-      link.addEventListener("focus", showPreview);
       link.addEventListener("mouseleave", hidePreview);
-      link.addEventListener("blur", hidePreview);
+      link.addEventListener("click", function () {
+        if (link.id) {
+          returnPositions[link.id] = window.scrollY;
+        }
+        hidePreviewNow();
+      });
+    });
+
+    document.querySelectorAll(".footnote-backref").forEach((link) => {
+      link.addEventListener("click", function (event) {
+        const href = link.getAttribute("href");
+        if (!href || !href.startsWith("#")) return;
+
+        const targetId = decodeURIComponent(href.slice(1));
+        if (returnPositions[targetId] === undefined) return;
+
+        event.preventDefault();
+        hidePreviewNow();
+
+        const target = document.getElementById(targetId);
+        if (target) {
+          target.focus({ preventScroll: true });
+        }
+
+        window.scrollTo({
+          top: returnPositions[targetId],
+          left: window.scrollX,
+          behavior: "auto"
+        });
+
+        if (history.replaceState) {
+          history.replaceState(null, "", `#${targetId}`);
+        }
+      });
     });
 
     preview.addEventListener("mouseenter", function () {
