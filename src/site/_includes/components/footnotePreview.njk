@@ -1,0 +1,104 @@
+<style>
+#footnote-preview {
+  position: fixed;
+  display: none;
+  width: min(360px, calc(100vw - 24px));
+  max-height: 220px;
+  overflow-y: auto;
+  padding: 10px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  font-size: 0.9em;
+  line-height: 1.55;
+  opacity: 0;
+  transition: opacity 100ms ease;
+  z-index: 40;
+}
+
+#footnote-preview.is-visible {
+  display: block;
+  opacity: 1;
+}
+
+#footnote-preview p {
+  margin: 0.35em 0;
+}
+</style>
+
+<div id="footnote-preview" role="tooltip"></div>
+
+<script>
+  window.addEventListener("load", function () {
+    const preview = document.getElementById("footnote-preview");
+    if (!preview) return;
+
+    let hideTimer;
+
+    function getFootnoteContent(link) {
+      const href = link.getAttribute("href");
+      if (!href || !href.startsWith("#")) return null;
+
+      const id = decodeURIComponent(href.slice(1));
+      const footnote = document.getElementById(id);
+      if (!footnote) return null;
+
+      const clone = footnote.cloneNode(true);
+      clone.querySelectorAll(".footnote-backref, .footnote-backref + a").forEach((elem) => elem.remove());
+      return clone.innerHTML.trim();
+    }
+
+    function placePreview(link) {
+      const rect = link.getBoundingClientRect();
+      const gap = 10;
+      const viewportPadding = 12;
+
+      preview.style.left = "0px";
+      preview.style.top = "0px";
+      preview.classList.add("is-visible");
+
+      const previewRect = preview.getBoundingClientRect();
+      let left = rect.left + rect.width / 2 - previewRect.width / 2;
+      left = Math.max(viewportPadding, Math.min(left, window.innerWidth - previewRect.width - viewportPadding));
+
+      let top = rect.bottom + gap;
+      if (top + previewRect.height > window.innerHeight - viewportPadding) {
+        top = rect.top - previewRect.height - gap;
+      }
+      top = Math.max(viewportPadding, top);
+
+      preview.style.left = `${left}px`;
+      preview.style.top = `${top}px`;
+    }
+
+    function showPreview(event) {
+      clearTimeout(hideTimer);
+      const content = getFootnoteContent(event.currentTarget);
+      if (!content) return;
+
+      preview.innerHTML = content;
+      placePreview(event.currentTarget);
+    }
+
+    function hidePreview() {
+      hideTimer = setTimeout(function () {
+        preview.classList.remove("is-visible");
+        preview.innerHTML = "";
+      }, 120);
+    }
+
+    document.querySelectorAll(".footnote-ref a").forEach((link) => {
+      link.addEventListener("mouseenter", showPreview);
+      link.addEventListener("focus", showPreview);
+      link.addEventListener("mouseleave", hidePreview);
+      link.addEventListener("blur", hidePreview);
+    });
+
+    preview.addEventListener("mouseenter", function () {
+      clearTimeout(hideTimer);
+    });
+    preview.addEventListener("mouseleave", hidePreview);
+  });
+</script>

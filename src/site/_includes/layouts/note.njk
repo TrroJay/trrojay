@@ -83,6 +83,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
+    {% include "components/footnotePreview.njk" %}
     {% include "components/references.njk" %}
     {% include "components/timestamps.njk" %}
     {% for imp in dynamics.common.footer %}
