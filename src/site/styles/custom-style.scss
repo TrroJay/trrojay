@@ -17,10 +17,10 @@
 body {
     font-family: "Songti SC", "STSongti-SC", "STSong", "华文宋体", serif !important;
 
-    --dg-content-font-size: 16px;
-    --h1-size: 1.75rem;
-    --h2-size: 1.45rem;
-    --h3-size: 1.2rem;
+    --dg-content-font-size: 17px;
+    --h1-size: 1.85em;
+    --h2-size: 1.55em;
+    --h3-size: 1.3em;
     --h1-weight: 700;
     --h2-weight: 700;
     --h3-weight: 700;
@@ -35,6 +35,7 @@ body {
     --interactive-accent-hover: #f7f7f8;
 
     --dg-content-line-height: 1.7;
+    --dg-timestamps-size: 0.9em;
     --dg-search-input-size: 1rem;
     --dg-search-input-padding: 8px 12px;
     -webkit-font-smoothing: antialiased;
@@ -80,7 +81,7 @@ body {
 }
 
 .markdown-rendered main.content > header > h1 {
-    font-size: 2.35rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2;
     margin-block-end: 0.45em;
