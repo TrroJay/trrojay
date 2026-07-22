@@ -3,7 +3,7 @@
 ---
 
 # 1 The Weekend - Silence please!
-
+[The Weekend - Silence please!\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV13j411X7Ai?spm_id_from=333.788.player.switch&vd_source=576ef86ce2869dda231f0b2514cc67a3&p=9)
 ## 1.1 Speaker Key
 
 **M:** Marco  
