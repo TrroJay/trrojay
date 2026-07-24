@@ -165,5 +165,5 @@
 **E:** Yeah, Marco and I are always on the site, so we're happy to answer all of your questions.  
 **M:** Exactly. So now it's time for us to say goodbye.
 
-[^1]: casual
+[^1]: "How's it going?" is a more casual way of saying "How are you?".
 [^2]: It happens to me: 这种事也会发生在我身上; It's happened to me: 这种事我也经历过.

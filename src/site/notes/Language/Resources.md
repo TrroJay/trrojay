@@ -4,14 +4,14 @@
 
 # 1 Pronunciation
 [全网最适合中国人的免费音标课(纯干货, 超详细!)](https://www.bilibili.com/video/BV1iV411z7Nj/?p=7&share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
-
-
-# 2 Dictionary
-## 2.1 App
+# 2 Listening
+[Episodes - This American Life](https://www.thisamericanlife.org/archive)
+# 3 Dictionary
+## 3.1 App
 Eudic
 	[欧路外源词典推荐与下载 - 凯恩斯的文章 - 知乎](https://zhuanlan.zhihu.com/p/362380543)
 GoldenDict
-## 2.2 Dictionary
+## 3.2 Dictionary
 ECDICT
 	[skywind3000/ECDICT: Free English to Chinese Dictionary Database](https://github.com/skywind3000/ECDICT?tab=readme-ov-file)
 		词汇量大，覆盖生僻词
