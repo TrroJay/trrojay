@@ -69,7 +69,7 @@
   **Rebecca Stern** You'll never know.
   **Sarah Turkisher** Time does not tell.
   **Rebecca Stern** No. You'll find out.
-**Ira Glass** The 10-year-olds seem to sit *on the cusp of belief and disbelief*[^20] when it comes to stories like this. For them, talking about these stories is just part of the process of trying to *puzzle out*[^21], how does the world exactly work? When you're 10, remember, people are constantly telling you scary stories—of murders, of kids with guns—and the thing is, a lot of those stories are true. So you're still figuring out, where is the line between fiction and nonfiction?
+**Ira Glass** The 10-year-olds seem to sit *on the cusp of belief and disbelief*[^20] when it comes to stories like this. **For them, talking about these stories is just part of the process of trying to *puzzle out*[^21], how does the world exactly work?** When you're 10, remember, people are constantly telling you scary stories—of murders, of kids with guns—and the thing is, a lot of those stories are true. So you're still figuring out, where is the line between fiction and nonfiction?
 **Ira Glass** One Saturday night, Aaron Etchler had all of his fellow 10-year-olds in the Sioux cabin completely *worked up*[^22] by telling them the story of Candyman. Candyman, if you know this story, appears and kills you if you say his name 10 times. Aaron said that a friend of his had died this way.
   **Boy 1** He said his friend died from Candyman.
   **Boy 2** He was crying last night because of the Candyman.
