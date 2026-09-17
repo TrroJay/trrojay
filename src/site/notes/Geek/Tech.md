@@ -71,13 +71,13 @@ clashctl sub update 1
 #### Codex 网络配置
 1. 创建 `~/.proxy_env`，写入代理环境变量：
 ```bash
-export HTTP_PROXY=http://127.0.0.1:51238
-export HTTPS_PROXY=http://127.0.0.1:51238
-export ALL_PROXY=http://127.0.0.1:51238
+export HTTP_PROXY=http://127.0.0.1:7890
+export HTTPS_PROXY=http://127.0.0.1:7890
+export ALL_PROXY=http://127.0.0.1:7890
 
-export http_proxy=http://127.0.0.1:51238
-export https_proxy=http://127.0.0.1:51238
-export all_proxy=http://127.0.0.1:51238
+export http_proxy=http://127.0.0.1:7890
+export https_proxy=http://127.0.0.1:7890
+export all_proxy=http://127.0.0.1:7890
 ```
 2. 在 `~/.bashrc` 中启用：
 ```bash
@@ -110,7 +110,7 @@ sudo apt install ./file.deb
 ```text
 [$1]($2)
 ```
-# 3 VPN 设置
+# 3 
 - 在线订阅转换网站
 	- [ACL4SSR 在线订阅转换](https://acl4ssr-sub.github.io/)
 # 4 VS Code
@@ -144,4 +144,7 @@ F12
 | **`Ctrl + K` → `Enter`**    | 将当前预览标签页由临时标签页变为固定标签页。 |
 | **`Ctrl + K` → `0`**        | 折叠代码编辑器中的所有代码块。        |
 | **`Ctrl + K` → `J`**        | 展开代码编辑器中的所有代码块。        |
-# 5 网站搭建
+# 5 Git 
+## 5.1 Git Bash
+
+# 6 Windows

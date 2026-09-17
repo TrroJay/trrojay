@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/language/this-american-life/741-the-weight-of-words/","dgEnableSearch":true,"dgShowToc":true,"created":"2026-07-28","updated":"2026-07-28"}
 ---
 
+[The Weight of Words - This American Life](https://www.thisamericanlife.org/741/the-weight-of-words)
 # 1 Act Three: The Rundown
 
 **Starlee Kine** I know a lot about small talk, because I worked in an office. And there's a lot of small talk that goes on. There's all these different forms of it. There's water cooler small talk, and there's elevator small talk, which actually isn't even that bad. Because most people think elevator small talk is the worst kind. But actually, I think it's OK, because it's finite. You know it's going to end at a certain point—  
@@ -58,7 +59,7 @@
   **[MUSIC — “IF IT WEREN'T FOR THE WORDS” BY EDITH FROST]**  
   **(SINGING)** I'd be writing all day, if it weren't for the words. I'd find something to say, if it weren't for the words. It's the words that give me trouble. I'd be all right if it weren't for the words.  
 **Ira Glass** Well, our program was produced today by Sean Cole, Bim Adewunmi, with help from Nadia Reiman. The people who put together today's show include Elna Baker, Emanuele Berry, Ben Calhoun, Zoe Chace, Dana Chivvis, Whitney Dangerfield, Neil Drumming, Damien Grave, Jessica Lussenhop, Stowe Nelson, Katherine Rae Mondo, Ben Falen, Tracy Rowland, Alissa Shipp, Lilly Sullivan, Christopher Swetala, Matt Tierney, and Nancy Updike. Managing editor for today's show was Diane Wu. Executive editor was David Kestenbaum; production help with today's rerun from Ari Saperstein and Chloee Weiner.  
-**Ira Glass** Special thanks today to Judy Meltzer, Bishop Gene Robinson, Dr. Barry Holtz, Deborah Moore, Hamza Syed, Ahmed Ali Akbar, Zainab Shah, Khalid Latif, Hannah Jewel, Ben Zimmer, Karl Baker, and Tom Howell. Our website—ThisAmericanLife. org, where you can stream our archive of 700 episodes for absolutely free. Also, there's videos, lists of favorite shows, for your summer-long car rides, tons of other stuff there—again, ThisAmericanLife. org.  
+**Ira Glass** Special thanks today to Judy Meltzer, Bishop Gene Robinson, Dr. Barry Holtz, Deborah Moore, Hamza Syed, Ahmed Ali Akbar, Zainab Shah, Khalid Latif, Hannah Jewel, Ben Zimmer, Karl Baker, and Tom Howell. *Our website—ThisAmericanLife. org, where you can stream our archive of 700 episodes for absolutely free. Also, there's videos, lists of favorite shows, for your summer-long car rides, tons of other stuff there—again, ThisAmericanLife. org.*  
 **Ira Glass** This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. Thanks, as always, to our program's confounder, Mr. Torey Malatia. He just saw the film _Cool Runnings_ last week, and he wondered, is that a documentary?  
   **Adam Mansbach** Really the first thing I did was send it to every Jamaican I knew and be like, Yo so what do you think about this  
 **Ira Glass** I'm Ira Glass. Back next week with more stories of _This American Life_.  

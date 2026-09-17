@@ -6,12 +6,18 @@
 [全网最适合中国人的免费音标课(纯干货, 超详细!)](https://www.bilibili.com/video/BV1iV411z7Nj/?p=7&share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 # 2 Listening
 [Episodes - This American Life](https://www.thisamericanlife.org/archive)
-# 3 Dictionary
-## 3.1 App
+# 3 Words
+[Speak Now \| SharpLingo](https://sharplingo.cn/)
+# 4 Learning Strategies
+[词汇量 2 万以后，我总结了背单词永远不忘的“必杀技”](https://www.bilibili.com/video/BV1wg41157sn/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+# 5 Germany
+[【南京大学】德语语音语法常晅（全 93 讲）](https://www.bilibili.com/video/BV1Ya411n7hS/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+# 6 Dictionary
+## 6.1 App
 Eudic
 	[欧路外源词典推荐与下载 - 凯恩斯的文章 - 知乎](https://zhuanlan.zhihu.com/p/362380543)
 GoldenDict
-## 3.2 Dictionary
+## 6.2 Dictionary
 ECDICT
 	[skywind3000/ECDICT: Free English to Chinese Dictionary Database](https://github.com/skywind3000/ECDICT?tab=readme-ov-file)
 		词汇量大，覆盖生僻词

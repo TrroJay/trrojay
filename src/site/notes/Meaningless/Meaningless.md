@@ -25,10 +25,19 @@
 # 4 Series
 [古装悬疑剧本的巅峰！多重反转，迷雾重重！万字精讲《神探狄仁杰》P 7](https://www.bilibili.com/video/BV1fD1yY1EBC/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 	曾泰的演技
-# 5 Idol
+# 5 Someone
 ## 5.1 JJ
 [炸裂！在小女孩抗拒的情况下被主持人起哄多次嘴对嘴！主持人还说是全世界最幸运的小女孩！亏主持人还是女的](https://www.bilibili.com/video/BV14wicBqEcm/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 ## 5.2 Germany
 Daniel Brühl
 	[特别萌的鼠💧](https://www.bilibili.com/video/BV16skRYYENJ/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 	[schule-Daniel Brühl](https://www.bilibili.com/video/BV1NvfABAE7G/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+## 5.3 Model
+[你们喜欢的双重锐评模特又来了…… #方凯瑞 #时尚 #模特 #武则天体验卡 ](https://www.bilibili.com/video/BV1GDEX69ERN/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+## 5.4 Up 主
+硬核的 HeyMatt
+	[硬核的HeyMatt的个人空间-硬核的HeyMatt个人主页-哔哩哔哩视频](https://space.bilibili.com/239688446/upload/video)
+	[史上最明晰口语提升方案！（句模系统第一期）](https://www.bilibili.com/video/BV1Dz4y1D7qh/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+	[如何看待b站up硬核的HeyMatt的句模法练口语他的课程适合大一新生报吗? - 知乎](https://www.zhihu.com/question/489883535)
+	[【段位系统】 洞察自身的认知段位（1—9 段）](https://www.bilibili.com/video/BV13s4y1o7Ha/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+	
