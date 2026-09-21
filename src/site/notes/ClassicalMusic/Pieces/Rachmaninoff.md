@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/classical-music/pieces/rachmaninoff/"}
+{"dg-publish":true,"permalink":"/classical-music/pieces/rachmaninoff/","dgEnableSearch":true,"dgShowToc":true}
 ---
 
 # 1 Piano Concerto
