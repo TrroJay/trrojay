@@ -14,7 +14,7 @@ Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
 Drag the right edge of the open file tree to resize it. The width is remembered
 in this browser; double-click the edge to restore the default. The focused
 divider also supports the arrow keys (Shift for larger steps), Home and End.
-The drawer never exceeds one fifth of the viewport width and does not move the
+The drawer never exceeds one quarter of the viewport width and does not move the
 article. This limit also applies to saved widths and after resizing the window.
 
 ## Article spacing and indentation

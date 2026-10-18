@@ -130,8 +130,8 @@ body:not(.no-filetree) .content.canvas-page {
 
 body:not(.no-filetree) .filetree-wrapper {
     width: var(--dg-filetree-width);
-    max-width: 20vw;
-    min-width: min(200px, 20vw);
+    max-width: 25vw;
+    min-width: min(200px, 25vw);
     justify-content: flex-start;
 }
 
