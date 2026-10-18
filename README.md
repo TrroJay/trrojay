@@ -9,6 +9,13 @@ See the README in the plugin repo for information on how to set it up.
 Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
 
 ---
+## File tree width
+
+Drag the right edge of the open file tree to resize it. The width is remembered
+in this browser; double-click the edge to restore the default. The focused
+divider also supports the arrow keys (Shift for larger steps), Home and End.
+The drawer stays within the viewport and does not move the article.
+
 ## Article spacing and indentation
 
 Source blank lines between paragraphs retain one full line of space each.

@@ -130,7 +130,52 @@ body:not(.no-filetree) .content.canvas-page {
 
 body:not(.no-filetree) .filetree-wrapper {
     width: var(--dg-filetree-width);
+    max-width: calc(100vw - 32px);
+    min-width: min(200px, calc(100vw - 32px));
     justify-content: flex-start;
+}
+
+.filetree-wrapper .filetree-sidebar {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.filetree-resize-handle {
+    position: absolute;
+    inset-block: 0;
+    right: -4px;
+    width: 10px;
+    cursor: col-resize;
+    touch-action: none;
+    color: var(--text-accent, #8ba3b0);
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset-block: 0;
+        left: 4px;
+        width: 2px;
+        background: currentColor;
+        opacity: 0.2;
+        transition: opacity 120ms ease;
+    }
+
+    &:hover::after,
+    &:focus-visible::after {
+        opacity: 1;
+    }
+
+    &:focus-visible {
+        outline: 2px solid currentColor;
+        outline-offset: -2px;
+    }
+}
+
+html.is-resizing-filetree,
+html.is-resizing-filetree * {
+    cursor: col-resize !important;
+    user-select: none !important;
 }
 
 @media (max-width: 1400px) {
