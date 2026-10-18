@@ -17,7 +17,7 @@
   }
 
   function bounds() {
-    const max = Math.max(0, Math.min(600, window.innerWidth - 32));
+    const max = Math.max(0, Math.floor(window.innerWidth / 5));
     return { min: Math.min(200, max), max };
   }
 

@@ -871,7 +871,7 @@ body.has-navbar .content {
 
 .fullpage-overlay {
     background-color: var(--dg-overlay-bg);
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
