@@ -9,6 +9,17 @@ See the README in the plugin repo for information on how to set it up.
 Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
 
 ---
+## Article spacing and indentation
+
+Source blank lines between paragraphs retain one full line of space each.
+Tab-indented prose becomes a nested block: wrapped lines stay indented, and a
+vertical guide marks each nesting level. Consecutive child paragraphs share
+the same guide, even when separated by blank lines.
+
+Fenced code, Markdown lists, quotes and formulas retain their own formatting.
+Four-space-indented code remains standard Markdown code; use Tabs for prose
+outlines.
+
 ## CSS Variables
 
 The digital garden is fully customizable through CSS variables. Override these in `src/site/styles/custom-style.scss` to customize your garden's appearance.

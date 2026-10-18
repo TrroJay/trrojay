@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "test": "node --test",
         "prebuild": "rimraf dist",
         "start": "npm-run-all get-theme build:sass --parallel watch:*",
         "watch:sass": "sass --watch src/site/styles:dist/styles",

@@ -590,7 +590,20 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/scripts");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
   eleventyConfig.addPassthroughCopy({ "src/site/logo.*": "/" });
-  eleventyConfig.addPlugin(faviconsPlugin, { outputDir: "dist" });
+  // Page renders run concurrently. Share the in-flight favicon generation so
+  // they cannot race to overwrite the same icon files (EBUSY on Windows).
+  eleventyConfig.addPlugin((config, options) => {
+    let faviconHtml;
+    config.on("eleventy.before", () => { faviconHtml = undefined; });
+    faviconsPlugin({
+      addAsyncShortcode(name, generate) {
+        config.addAsyncShortcode(name, (...args) => {
+          if (!faviconHtml) faviconHtml = generate(...args);
+          return faviconHtml;
+        });
+      },
+    }, options);
+  }, { outputDir: "dist" });
   eleventyConfig.addPlugin(tocPlugin, {
     ul: true,
     tags: ["h1", "h2", "h3", "h4", "h5", "h6"],
