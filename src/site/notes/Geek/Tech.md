@@ -33,7 +33,10 @@ http://127.0.0.1:7986
 2. 在终端中加载代理环境变量。
 3. 使用 Codex CLI 时，需要重启 Codex。
 4. 使用 VS Code Proxy 时，需要重新设置或重载代理。
+在 Linux 中使用为无图形界面服务器设计的 clashctl
+	[GitHub - nelvko/clashctl: 😼 优雅地使用基于 clash/mihomo 的代理环境 · GitHub](https://github.com/nelvko/clashctl.git)
 ```bash
+
 # 启动 Mihomo
 tmux new-session -d -s clashctl_mihomo \
 "bash -lc 'exec ~/clashctl/bin/mihomo \
@@ -66,6 +69,9 @@ PROFILE_URL='http://8.148.211.250:21312/uuid/zvJoturZubvAItue?clash=1' \
 
 # 刷新订阅
 clashctl sub update 1
+
+# 查看节点
+clashctl node ls
 ```
 ## 1.2 Agent 接入方法
 #### Codex 网络配置

@@ -10,6 +10,10 @@ Introduction
 Resources
 	[Metacognitive Therapy for Anxiety and Depression (豆瓣)](https://book.douban.com/subject/4687242/)
 	[Metacognitive Therapy for Anxiety and Depression EPUB](https://epdf.pub/metacognitive-therapy-for-anxiety-and-depressiona32e17f4f23ab52507bc942879a03a6b93785.html)
+## 1.1 Attention Training Therapy (ATT)
+Practice
+	[Attention Training Technique - Beginner - YouTube](https://www.youtube.com/playlist?list=PLx0h9GH33gV3yjpVcHCu8-Amz_sz4zT0e)
+	[[SelfHelp/Reading/Metacognitive Therapy\|Metacognitive Therapy]]
 # 2 Inner Speech
 Resources
 	[脑海中的声音 (豆瓣)](https://book.douban.com/subject/33474734/)
