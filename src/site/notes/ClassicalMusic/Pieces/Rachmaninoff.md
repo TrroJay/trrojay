@@ -5,7 +5,7 @@
 # 1 Piano Concerto
 ## 1.1 Piano Concerto No. 2 in C minor, Op. 18
 ### 1.1.1 录音
-Alexis Weissenberg，Herbert von Karajan 指挥
+Alexis Weissenberg，Herbert von Karajan 指挥！
 	[魏森伯格与卡拉扬演奏拉赫玛尼诺夫第二钢琴协奏曲](https://www.bilibili.com/video/BV1Vt411K7q6/)
 Sviatoslav Richter，Stanisław Wisłocki 指挥
 	[里赫特演奏拉赫玛尼诺夫第二钢琴协奏曲](https://www.bilibili.com/video/BV1Sr1tYmEvv/)

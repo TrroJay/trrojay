@@ -3,6 +3,8 @@
 ---
 
 # 1 Reading Pieces
+[Ray Monk - Ludwig Wittgenstein\_ The Duty of Genius-Penguin Books (1991).pdf - PDFCOFFEE.COM](https://pdfcoffee.com/ray-monk-ludwig-wittgenstein-the-duty-of-genius-penguin-books-1991pdf-pdf-free.html?utm_source=chatgpt.com)
+
 ## 1.1 谈“自我忠诚”
 
 **青年时期维特根斯坦对“忠诚”的看法**
@@ -39,3 +41,10 @@
 > 我告诉他，我不忍心说什么来反对这个，他最好搞来一个奴隶说出论证。
 
 罗素很有理由担心维特根斯坦得不到理解，因为他日益觉得自己的逻辑工作的未来在维特根斯坦的手里。
+
+## 1.2 Russell's Religious
+Russell in Hibbert Journal "The Essence of Religion"
+The infinite part of our life does not see the world from one point of view: it shines impartially, like the diffused light on a cloudy sea. Distant ages and remote regions of space are as real to it as what is present and near. In thought, it rises above the life of the senses, seeking always what is general and open to all men. In desire and will, it aims simply at the good, without regarding the good as mine or yours. In feeling, it gives love to all, not only to those who further the purposes of self. Unlike the finite life, it is impartial: its impartiality leads to truth in thought, justice in action, and universal love in feeling.
+
+## 1.3 Love
+[How Ludwig Wittgenstein’s secret boyfriend helped deliver the philosopher’s seminal work - Connecting Research](https://research.reading.ac.uk/research-blog/2018/05/16/how-ludwig-wittgensteins-secret-boyfriend-helped-deliver-the-philosophers-seminal-work/?utm_source=chatgpt.com)

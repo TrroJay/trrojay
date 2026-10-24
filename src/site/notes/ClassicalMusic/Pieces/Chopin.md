@@ -7,8 +7,10 @@
 ### 1.1.1 Pieces
 Martha Argerich
 	[【杜比音效】肖邦-第一钢琴协奏曲-阿格里奇](https://www.bilibili.com/video/BV1us4y1G7Sc/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
-李云迪 
+李云迪！
 	2000: [【修复】李云迪第一钢协第二乐章 2000 年肖邦钢琴比赛金奖](https://www.bilibili.com/video/BV1Di4y1C7sh/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+	2000: [【修复】李云迪第一钢协第一乐章 2000 年肖邦钢琴比赛金奖](https://www.bilibili.com/video/BV1oa41147kB/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+	2000: [【修复】李云迪第一钢协第三乐章 2000 年肖邦钢琴比赛金奖](https://www.bilibili.com/video/BV1tu411z7kz/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 	2019: [【肖邦/李云迪】E 小调第一钢琴协奏曲 Op. 11｜华沙国家爱乐乐团](https://www.bilibili.com/video/BV1fe411L7Xi/?p=2&share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 Evgeny Kissin, piano; Zubin Mehta, conductor
 	[叶甫格尼·基辛《肖邦：第一钢琴协奏曲》祖宾·梅塔-挥-以色列爱乐](https://www.bilibili.com/video/BV1TE421N7Qw/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
