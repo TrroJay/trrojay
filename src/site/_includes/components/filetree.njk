@@ -42,8 +42,13 @@
         {%endif%}
         <button type="button" class="filetree-collapse-all"
                 @click.stop="$dispatch('filetree-collapse-all')"
-                aria-controls="filetree-folders" title="收起所有层级的文件夹">
-            收起全部文件夹
+                aria-controls="filetree-folders" aria-label="收起全部文件夹"
+                title="收起全部文件夹">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                 stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="m6 4 6 6 6-6M6 20l6-6 6 6"/>
+            </svg>
         </button>
          <div class="folder" id="filetree-folders" x-data="{isOpen: true}">
                {%- for fileOrFolderName, fileOrFolder in filetree -%}
