@@ -17,6 +17,9 @@ divider also supports the arrow keys (Shift for larger steps), Home and End.
 The drawer never exceeds one quarter of the viewport width and does not move the
 article. This limit also applies to saved widths and after resizing the window.
 
+The button below the file tree search collapses every folder, including nested
+folders. The collapsed state is remembered when navigating or refreshing.
+
 ## Article spacing and indentation
 
 Source blank lines between paragraphs retain one full line of space each.
