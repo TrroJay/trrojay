@@ -1,4 +1,3 @@
-const slugify = require("@sindresorhus/slugify");
 const markdownIt = require("markdown-it");
 const fs = require("fs");
 const matter = require("gray-matter");
@@ -7,6 +6,7 @@ const tocPlugin = require("eleventy-plugin-nesting-toc");
 const { parse } = require("node-html-parser");
 const htmlMinifier = require("html-minifier-terser");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const { getNotePermalink, resetNotePermalinks } = require("./src/helpers/notePermalinks");
 
 const { headerToId, namedHeadingsFilter } = require("./src/helpers/utils");
 const {
@@ -45,7 +45,7 @@ function getAnchorAttributes(filePath, linkTitle) {
 
   let noteIcon = process.env.NOTE_ICON_DEFAULT;
   const title = linkTitle ? linkTitle : fileName;
-  let permalink = `/notes/${slugify(filePath)}`;
+  let permalink = "/404";
   let deadLink = false;
   try {
     const startPath = "./src/site/notes/";
@@ -57,15 +57,8 @@ function getAnchorAttributes(filePath, linkTitle) {
     }
     const file = fs.readFileSync(fullPath, "utf8");
     const frontMatter = matter(file);
-    if (frontMatter.data.permalink) {
-      permalink = frontMatter.data.permalink;
-    }
-    if (
-      frontMatter.data.tags &&
-      frontMatter.data.tags.indexOf("gardenEntry") != -1
-    ) {
-      permalink = "/";
-    }
+    permalink = getNotePermalink(fullPath, frontMatter.data);
+    if (permalink === false) deadLink = true;
     if (frontMatter.data.noteIcon) {
       noteIcon = frontMatter.data.noteIcon;
     }
@@ -97,6 +90,7 @@ function getAnchorAttributes(filePath, linkTitle) {
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.on("eleventy.before", resetNotePermalinks);
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });

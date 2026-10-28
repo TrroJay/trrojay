@@ -1,3 +1,5 @@
+const { getNotePermalink } = require("./notePermalinks");
+
 const sortTree = (unsorted) => {
   //Sort by folder before file, then by name
   const orderedTree = Object.keys(unsorted)
@@ -65,9 +67,7 @@ function getPermalinkMeta(note, key) {
   let pinned = false;
   let folders = null;
   try {
-    if (note.data.permalink) {
-      permalink = note.data.permalink;
-    }
+    permalink = note.url ?? getNotePermalink(note.inputPath, note.data);
     if (note.data.tags && note.data.tags.indexOf("gardenEntry") != -1) {
       permalink = "/";
     }    

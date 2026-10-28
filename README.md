@@ -20,6 +20,14 @@ article. This limit also applies to saved widths and after resizing the window.
 The button below the file tree search collapses every folder, including nested
 folders. The collapsed state is remembered when navigating or refreshing.
 
+## Chinese note titles and URLs
+
+Chinese filenames are supported without renaming. If the publisher produces an
+empty or duplicate permalink, the build automatically uses a unique URL based
+on the source path, preserving Chinese characters. Existing unique custom URLs
+are kept. File tree entries, wiki links, search and graph data use the resolved
+URL, so re-publishing the notes does not reintroduce output conflicts.
+
 ## Article spacing and indentation
 
 Source blank lines between paragraphs retain one full line of space each.
