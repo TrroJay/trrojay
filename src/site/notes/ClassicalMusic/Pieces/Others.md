@@ -18,3 +18,5 @@ Bibipiano
 ## 2.1 Vltava
 [【4 K】【热泪盈眶的露天现场】《沃尔塔瓦河》布拉格老城广场库贝利克指挥捷克爱乐乐团 1990 年选自斯美塔那《我的祖国》](https://www.bilibili.com/video/BV1qKAUzWEck/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 
+# 3 Documentary
+[李云迪《青年浪漫主义者》](https://www.bilibili.com/video/BV1Ke411J7oH/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)

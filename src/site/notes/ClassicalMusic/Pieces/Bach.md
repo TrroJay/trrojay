@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/classical-music/pieces/bach/","dgEnableSearch":true,"dgShowToc":true}
+{"dg-publish":true,"permalink":"/classical-music/pieces/bach/","dgEnableSearch":true,"dgShowToc":true,"created":"[[2026-07-19]]","updated":"[[2026-11-03]]"}
 ---
 
 # 1 Concerto
@@ -16,6 +16,13 @@
 	[《勃兰登堡协奏曲》赏析（中文字幕）](https://www.bilibili.com/video/BV1fK421e7xo/)
 小提琴与中提琴介绍
 	[小提琴和中提琴演奏同一乐曲时的区别](https://www.bilibili.com/video/BV1R84y1F7RB/)
+## 1.2 Goldberg-Variationen, BWV 988
+### 1.2.1 Pieces
+Gould
+	[格伦·古尔德《巴赫：哥德堡变奏曲》「BD」](https://www.bilibili.com/video/BV1Er421j7j5/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+Lang Lang
+	[【郎朗】20211126 巴赫《哥德堡变奏曲》巴黎独奏音乐会｜法国广播电台直播全程](https://www.bilibili.com/video/BV1bL411M7LF/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+
 # 2 Invention and Sinfonia
 ## 2.1 Two-Part Inventions and Three-Part Sinfonias
 ### 2.1.1 大师课

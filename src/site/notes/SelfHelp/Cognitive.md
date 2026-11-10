@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/self-help/cognitive/","dgEnableSearch":true,"dgShowToc":true,"created":"2026-09-19","updated":"2026-09-19"}
+{"dg-publish":true,"permalink":"/self-help/cognitive/","dgEnableSearch":true,"dgShowToc":true,"created":"2026-09-19","updated":["2026-09-19","[[2026-10-27]]"]}
 ---
 
 Thoughts don't matter but your response to them does.

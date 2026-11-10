@@ -1,8 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/classical-music/tips/","dgEnableSearch":true,"dgShowToc":true,"created":"2026-08-22","updated":"2026-08-22"}
+{"dg-publish":true,"permalink":"/classical-music/tips/","dgEnableSearch":true,"dgShowToc":true,"created":"2026-08-22","updated":"[[2026-11-01]]"}
 ---
 
 # 1 音乐怎么听
 [包场整个音乐厅，用云宫迅音带你听懂交响乐！](https://www.bilibili.com/video/BV1pQCmYdE1b/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+[TED 演讲精选第三期：如何鉴赏古典音乐](https://www.bilibili.com/video/BV1zt4y1S7BY/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 # 2 Messages
 [上海乐历｜上海古典音乐会日历](https://shanghaiconcerts.com/)
+# 3 Pianists
+Li Yundi
+	[李云迪《青年浪漫主义者》](https://www.bilibili.com/video/BV1Ke411J7oH/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
