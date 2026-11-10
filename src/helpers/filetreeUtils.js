@@ -116,6 +116,10 @@ function getFileTree(data) {
   const tree = {};
   (data.collections.note || []).forEach((note) => {
     const [meta, folders] = getPermalinkMeta(note);
+    // Storage remains published and linkable, but never creates navigation entries.
+    const sourcePath = note.filePathStem.replace(/\\/g, "/").split("notes/")[1] || "";
+    const displayPath = (note.data["dg-path"] || sourcePath).replace(/\\/g, "/");
+    if ([sourcePath, displayPath].some((path) => /^storage\//i.test(path))) return;
     assignNested(tree, folders, { isNote: true, ...meta });
   });
   const fileTree = sortTree(tree);

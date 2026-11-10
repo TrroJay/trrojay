@@ -20,6 +20,23 @@ article. This limit also applies to saved widths and after resizing the window.
 The button below the file tree search collapses every folder, including nested
 folders. The collapsed state is remembered when navigating or refreshing.
 
+## Navigation and published metadata
+
+The root `Storage` folder (case-insensitive) is excluded from the left file tree,
+including descendants and notes moved there with `dg-path`. Its pages remain
+published and accessible through article links; this is a navigation preference,
+not access control. Search and graph data retain these pages.
+
+`dgShowToc=false` in the global settings disables the right heading tree even if
+older published notes still contain `dgShowToc: true`. When enabled globally,
+individual notes can still disable it.
+
+Creation and modification dates support ISO dates, timestamps, Obsidian date
+links such as `[[2026-11-09]]`, and lists of dates. Lists use the earliest creation
+date and latest modification date. Missing or invalid dates are omitted, never
+replaced by the repository checkout time. Dates remain readable if the browser
+date-formatting library cannot load.
+
 ## Chinese note titles and URLs
 
 Chinese filenames are supported without renaming. If the publisher produces an

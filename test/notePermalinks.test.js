@@ -84,31 +84,40 @@ test("real Eleventy build keeps Chinese pages, navigation, wiki links and search
   };
   const requireSource = (file) => `module.exports = require(${JSON.stringify(path.join(repository, file))});`;
   const notes = [
-    note("中文目录/第一篇.md", "/articles//", { title: "第一篇" }),
+    note("中文目录/第一篇.md", "/articles//", {
+      title: "第一篇", dgShowToc: true,
+      created: "[[2026-11-09]]", updated: ["2026-09-19", "[[2026-11-10]]"],
+    }),
     note("中文目录/第二篇.md", "/articles//", { title: "第二篇" }),
     note("中文目录/中文 AI.md", "/articles/ai/", { title: "中文 AI" }),
     note("中文目录/另一篇 AI.md", "/articles/ai/", { title: "另一篇 AI" }),
     note("中文目录/自定义.md", "/custom-stable/", { title: "自定义" }),
     note("Reference.md", "/reference/", { title: "Reference" }),
+    note("Storage/Nested/Linked.md", "/storage-linked/", { title: "Hidden linked page" }),
   ];
 
   try {
     write("notes/notes.json", fs.readFileSync(path.join(repository, "src/site/notes/notes.json"), "utf8"));
     write("notes/notes.11tydata.js", requireSource("src/site/notes/notes.11tydata.js"));
     write("_data/eleventyComputed.js", requireSource("src/site/_data/eleventyComputed.js"));
-    write("_includes/layouts/note.njk", "<main>{{ content | link | safe }}</main>");
+    fs.cpSync(path.join(repository, "src/site/_includes"), path.join(fixture, "src/site/_includes"), { recursive: true });
+    fs.copyFileSync(path.join(repository, "src/site/favicon.svg"), path.join(fixture, "src/site/favicon.svg"));
+    for (const file of ["meta.js", "dynamics.js"]) write(`_data/${file}`, requireSource(`src/site/_data/${file}`));
     write("filetree.njk", "---\npermalink: /filetree.json\neleventyExcludeFromCollections: true\n---\n{{ filetree | jsonify | safe }}");
     for (const file of ["search-index.njk", "graph.njk"]) {
       write(file, fs.readFileSync(path.join(repository, "src/site", file), "utf8"));
     }
     for (const entry of notes) {
-      write(`notes/${entry.filePath}`, `---\n${JSON.stringify(entry.data)}\n---\n${entry.filePath === "Reference.md" ? "[[中文目录/第一篇|第一篇]]\n[[中文目录/第二篇|第二篇]]" : entry.data.title}\n`);
+      write(`notes/${entry.filePath}`, `---\n${JSON.stringify(entry.data)}\n---\n${entry.filePath === "Reference.md" ? "[[中文目录/第一篇|第一篇]]\n[[中文目录/第二篇|第二篇]]\n[[Storage/Nested/Linked|Hidden linked page]]" : `# ${entry.data.title}`}\n`);
     }
     try {
       execFileSync(process.execPath, [
         path.join(repository, "node_modules/@11ty/eleventy/cmd.cjs"),
         `--config=${path.join(repository, ".eleventy.js")}`, "--quiet",
-      ], { cwd: fixture, encoding: "utf8", timeout: 60000, env: { ...process.env, ELEVENTY_ENV: "prod" }, stdio: "pipe" });
+      ], { cwd: fixture, encoding: "utf8", timeout: 60000, env: {
+        ...process.env, ELEVENTY_ENV: "prod", dgShowToc: "false", dgShowFileTree: "true",
+        SHOW_CREATED_TIMESTAMP: "true", SHOW_UPDATED_TIMESTAMP: "true", TIMESTAMP_FORMAT: "MMM dd, yyyy",
+      }, stdio: "pipe" });
     } catch (error) {
       assert.fail(`${error.stdout || ""}\n${error.stderr || error.message}`);
     }
@@ -128,11 +137,18 @@ test("real Eleventy build keeps Chinese pages, navigation, wiki links and search
       const url = urls.get(entry.filePath);
       assert.ok(fs.existsSync(path.join(fixture, "dist", url.slice(1), "index.html")), url);
       assert.equal(search.find((item) => item.title === entry.data.title)?.url, url);
-      assert.ok(treeUrls.includes(url), `file tree: ${url}`);
+      assert.equal(treeUrls.includes(url), !entry.filePath.startsWith("Storage/"), `file tree: ${url}`);
       assert.ok(graph.nodes[url], `graph: ${url}`);
     }
-    const links = parse(read("reference/index.html")).querySelectorAll("a.internal-link");
-    assert.deepEqual(links.map((link) => link.getAttribute("href")), [urls.get("中文目录/第一篇.md"), urls.get("中文目录/第二篇.md")]);
+    const reference = parse(read("reference/index.html"));
+    const links = reference.querySelectorAll("main a.internal-link");
+    assert.deepEqual(links.map((link) => link.getAttribute("href")), [urls.get("中文目录/第一篇.md"), urls.get("中文目录/第二篇.md"), "/storage-linked/"]);
+    assert.equal(reference.querySelectorAll("nav a[href='/storage-linked/']").length, 0);
+    assert.equal(Object.hasOwn(tree, "Storage"), false);
+    const firstPage = parse(read(`${urls.get("中文目录/第一篇.md").slice(1)}index.html`));
+    assert.equal(firstPage.querySelector(".toc"), null);
+    assert.deepEqual(firstPage.querySelectorAll("time.human-date").map((el) => el.getAttribute("datetime")), ["2026-11-09", "2026-11-10"]);
+    assert.deepEqual(firstPage.querySelectorAll("time.human-date").map((el) => el.textContent), ["2026-11-09", "2026-11-10"]);
   } finally {
     // Delete only this test's freshly created directory, directly under temp.
     assert.equal(path.dirname(path.resolve(fixture)), tempParent);
