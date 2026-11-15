@@ -1,0 +1,28 @@
+---
+{"dg-publish":true,"permalink":"/meaningless/less-meaningless/","dgEnableSearch":true,"dgShowToc":true,"created":"[[2026-07-19]]","updated":"[[2026-11-15]]"}
+---
+
+# 1 Scientific Research
+[\[PLMW @ ICFP/SPLASH'25\] How to Write Papers and Give Talks that People Can Follow - YouTube](https://www.youtube.com/watch?v=230nijxFq0Y)
+# 2 Daily Life
+哲少的生活
+	[成为旅行博主后，我的日常生活变成了...](https://www.bilibili.com/video/BV1zQzfBFENw/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+# 3 Choir
+[这种“AI 假合唱”，为何那么多人上当？](https://www.bilibili.com/video/BV1W3fnBkENU/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+# 4 PopMusic
+[原来莫文蔚最好的 9 首情歌，都藏在滚石唱片。好痛！特别痛！丨 HOPICO](https://www.bilibili.com/video/BV1WHe16sEor/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+# 5 Career
+[从哲学系和中文系毕业之后](https://www.bilibili.com/video/BV1gyovBbEZA/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+[潘晓的来信: 人生的路啊，怎么越走越窄 - 绿皮儿红豆公主的文章 - 知乎](https://zhuanlan.zhihu.com/p/269904355)
+# 6 Society
+温州
+	[曾经遍地豪车，全国买房，如今企业倒闭，老板跑路，无缘新一线的温州，究竟经历了什么？【城市中国 1】下集](https://www.bilibili.com/video/BV16V411Y7MW/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+时代的困惑
+	[翟学伟：我们的时代与我们的困境](https://www.douban.com/note/827663232/?dt_dapp=1&dt_platform=com.douban.activity.wechat_friends&_i=4308258aRZYYc3)
+# 7 Gender
+[YouTube 上点赞率超高的讽刺小短片《男性张腿》](https://www.bilibili.com/video/BV1yqf2BSENp/?share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
+# 8 Teacher
+[Blog posts - Home](https://njulj.github.io/year-archive/)
+[王聪-南京大学](https://wangcong.cn/)
+# 9 Books
+[EPUB download](https://epdf.pub/en/)

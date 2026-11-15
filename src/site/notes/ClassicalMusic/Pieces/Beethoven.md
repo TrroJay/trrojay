@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/classical-music/pieces/beethoven/","dgEnableSearch":true,"dgShowToc":true,"created":"[[2026-07-19]]","updated":"[[2026-11-07]]"}
+{"dg-publish":true,"permalink":"/classical-music/pieces/beethoven/","dgEnableSearch":true,"dgShowToc":true,"created":"[[2026-07-19]]","updated":"[[2026-11-11]]"}
 ---
 
 # 1 Bagatelle
@@ -15,6 +15,7 @@ Seymour Bernstein
 	[《致爱丽丝》管弦乐改编版本](https://www.bilibili.com/video/BV1Es4y1V7HJ/)
 
 # 2 Piano Sonata 
+[【布伦德尔 | Philips 90s】贝多芬钢琴奏鸣曲全集-Beethoven Complete Piano Sonatas - Alfred Brendel](https://www.bilibili.com/video/BV1f1mbBcETP/?p=26&share_source=copy_web&vd_source=2d5d054ab74f94c10a195a08b7a2a7d2)
 ## 2.1 Piano Sonata No. 21 in C major, Op. 53, “Waldstein”
 ### 2.1.1 大师课
 Barenboin & Ashkar
